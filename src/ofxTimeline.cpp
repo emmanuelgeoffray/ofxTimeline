@@ -907,10 +907,10 @@ void ofxTimeline::setDurationInSeconds(float seconds){
 
 
 	if(updateInTime){
-		setInPointAtSeconds(inTimeSeconds);
+		//setInPointAtSeconds(inTimeSeconds);
 	}
 	if(updateOutTime){
-		setOutPointAtSeconds(outTimeSeconds);
+		//setOutPointAtSeconds(outTimeSeconds);
 	}
 
 	zoomer->setViewRange(zoomer->getSelectedRange());
